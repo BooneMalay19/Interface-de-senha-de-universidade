@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PROJETO</title>
+</head>
+<body>
+    <div id="content-container">
+        <div id="content">
+            <h1>USUÁRIOS</h1>
+            <form action="">
+                <label for="nomeDoPrimeiroIntegrante_rgm">RGM ALUNO 1</label>
+                <input type="text" id="nomeDoPrimeiroIntegrante_rgm" name="nomeDoPrimeiroIntegrante_rgm"><br><br>
+
+                <label for="nomeDoSegundoIntegrante_rgm">RGM ALUNO 2</label>
+                <input type="text" id="nomeDoSegundoIntegrante_rgm" name="nomeDoSegundoIntegrante_rgm"><br><br>
+
+                <div class="password-container">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha"><br>
+                    <label for "confirmaSenha">Confirme a senha</label>
+                    <input type="password" id="confirmaSenha" name="confirmaSenha"><br>
+                </div>
+
+                <br>
+                <input type="button" value="Verificar Criadores" onclick="verificarCriadores()"><br>
+                <input type="button" value="Verificar Senha" onclick="verificarSenha()"><br>
+                Maykon_34886923 <br> Pedro_35996609
+            </form>
+            <div id="escrever"></div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
